@@ -15,7 +15,7 @@
 
   Tourly is fully responsive travel website, <br />Responsive for all devices, built using HTML, CSS, and JavaScript.
 
-  <a href="https://github.com/aksihol/Himachal-Trips/"><strong>➥ Live Demo</strong></a>
+  <a href="https://github.com/aksihol/github.io/Himachal-Trips/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
