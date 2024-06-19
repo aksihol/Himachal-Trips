@@ -25,7 +25,7 @@ Ionicon
 
 ``` css
 --united-nations-blue: hsl(214, 56%, 58%);
---bright-navy-blue: hsl(214, 57%, 51%);
+--black: hsl(214, 57%, 51%);
 --spanish-gray: hsl(0, 0%, 60%);
 --black-coral: hsl(225, 8%, 42%);
 --oxford-blue: hsl(208, 97%, 12%);
