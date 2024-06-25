@@ -375,7 +375,7 @@ body { background: var(--white); }
 \*-----------------------------------*/
 
 .hero {
-  background-image: url("../images/hero-banner.jpg");
+  background-image: url("../images/Book2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -910,13 +910,13 @@ address {
    */
 
   .hero {
-    min-height: 800px;
-    padding-top: 85px;
+    min-height: 500px;
+    padding-top: 25px;
   }
 
-  .hero-text { --fs-5: 15px; }
+  .hero-text { --fs-3: 12px; }
 
-  .btn-group { gap: 20px; }
+  .btn-group { gap: 10px; }
 
 
 
@@ -925,13 +925,13 @@ address {
    */
 
   .tour-search-form {
-    display: grid;
+    display: gid;
     grid-template-columns: 1fr 1fr;
     align-items: flex-end;
     gap: 15px;
   }
 
-  .tour-search-form .input-wrapper { margin-bottom: 0; }
+  .tour-search-form .input-wrapper { margin-bottom: 0px; }
 
   .tour-search-form .input-field { padding: 16px 20px; }
 
@@ -1262,9 +1262,6 @@ address {
   .footer-form .btn { width: 100%; }
 
 }
-
-
-
 
 
 /**

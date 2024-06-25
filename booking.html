@@ -1,93 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booking Form - Travel Agency</title>
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-	<style>
-		/* Optional: Add some basic styling */
-		body {
-			font-family: Arial, sans-serif;
-			margin: 0;
-			padding: 20px;
-			display: flex;
-			justify-content: flex-end; /* Aligns content to the right */
-			background-color: #ffffff; /* Background color for the body */
-		}
-		
-		.header {
-			background-color: #808080; /* Grey background color for the header */
-			padding: 10px;
-		}
-		
-		.header-top, .header-bottom {
-			/* Ensure header content stays visible */
-			color: #fff; /* Text color for header content */
-		}
-	
-		.overlay {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
-			z-index: 1; /* Ensure overlay is behind header content */
-		}
-		
-		.header-btn-group button {
-			color: #fff; /* Button icon color */
-		}
-	
-		.social-link ion-icon {
-			color: #e0200f; /* Social media icon color */
-		}
-	
-		/* Adjust other styles as needed */
-		.form-group {
-			margin-bottom: 10px;
-		}
-		.form-group label {
-			display: block;
-			margin-bottom: 5px; /* Adjust spacing for labels */
-		}
-		.form-group input, .form-group select {
-			width: 100%;
-			padding: 8px;
-			box-sizing: border-box;
-		}
-		.form-group input[type="submit"] {
-			background-color: #4CAF50;
-			color: white;
-			border: none;
-			cursor: pointer;
-		}
-	</style>
-	
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Himachal Trip - Travel agancy</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/booking.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
 </head>
 <body id="top">
 
 	<header class="header" data-header>
-		<div class="overlay" data-overlay></div>
 		<div class="header-top">
 			<div class="container">
 				<a href="#" class="logo">
 					<img src="./assets/images/logo.svg" alt="Himachal Trip logo">
 				</a>
-				<div class="header-btn-group">
-					<button class="search-btn" aria-label="Search">
-						<ion-icon name="search"></ion-icon>
-					</button>
-					<button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-						<ion-icon name="menu-outline"></ion-icon>
-					</button>
-				</div>
 			</div>
 		</div>
 		<div class="header-bottom">
@@ -110,14 +56,6 @@
 					</li>
 				</ul>
 				<nav class="navbar" data-navbar>
-					<div class="navbar-top">
-						<a href="#" class="logo">
-							<img src="./assets/images/logo-blue.svg" alt="Himachal Trip logo">
-						</a>
-						<button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-							<ion-icon name="close-outline"></ion-icon>
-						</button>
-					</div>
 					<ul class="navbar-list">
 						<li>
 							<a href="#home" class="navbar-link" data-nav-link>Home</a>
@@ -145,46 +83,100 @@
 	
 
 	<main>
-		<form id="bookingForm">
-			<div class="form-group">
-				<label for="name">Name:</label>
-				<input type="text" id="name" name="name" required>
-			</div>
-			<div class="form-group">
-				<label for="email">Email:</label>
-				<input type="email" id="email" name="email" required>
-			</div>
-			<div class="form-group">
-				<label for="phone">Phone:</label>
-				<input type="tel" id="phone" name="phone" required>
-			</div>
-			<div class="form-group">
-				<label for="date">Date:</label>
-				<input type="date" id="date" name="date" required>
-			</div>
-			<div class="form-group">
-				<label for="numberofpeople">Number of People:</label>
-				<input type="number" id="numberofpeople" name="numberofpeople" required>
-			</div>
-			<div class="form-group">
-				<label for="service">Service:</label>
-				<select id="service" name="service" required>
-					<option value="">Select a service</option>
-					<option value="Service 1">Service 1</option>
-					<option value="Service 2">Service 2</option>
-					<option value="Service 3">Service 3</option>
-				</select>
-			</div>
-			<div class="form-group">
-				<input type="submit" value="Book Now">
-			</div>
-		</form>
-	</main>
-	
+		
 
-<footer>
-    <!-- Your footer content here -->
-</footer>
+			<!-- 
+			  - #HERO
+			-->
+	  
+			<section class="hero" id="home">
+			  <div class="container">
+				<h2 class="h1 hero-title">Fill Out the Enquiry Form</h2>   
+				<p class="hero-text">
+				  Fill the Enquiry form to Get Call From Our Expert. 
+				</p>
+			  </div>
+			</section>
+
+			<section class="tour-search">
+				<div class="container">
+		
+				  <form action="" class="tour-search-form">
+		
+					<div class="input-wrapper">
+					  <label for="EnterName" class="input-label">Name*</label>
+		
+					  <input type="text" name="Name" id="Name" required placeholder="Enter Full Name"
+						class="input-field">
+					</div>
+
+					<div class="input-wrapper">
+						<label for="EnterEmail" class="input-label">Email Id*</label>
+		  
+						<input type="text" name="EnterEmail" id="EnterEmail" required placeholder="Enter Email Id"
+						  class="input-field">
+					</div>
+
+					<div class="input-wrapper">
+						<label for="EnterPhone" class="input-label">Phone Number*</label>
+		  
+						<input type="text" name="EnterPhone" id="EnterPhone" required placeholder="Enter Phone Number"
+						  class="input-field">
+					</div>
+		
+		
+					<div class="input-wrapper">
+					  <label for="people" class="input-label">Pax Number*</label>
+		
+					  <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+					</div>
+		
+					<div class="input-wrapper">
+					  <label for="checkin" class="input-label">Checkin Date*</label>
+		
+					  <input type="date" name="checkin" id="checkin" required class="input-field">
+					</div>
+		
+					<div class="input-wrapper">
+					  <label for="checkout" class="input-label">Checkout Date*</label>
+		
+					  <input type="date" name="checkout" id="checkout" required class="input-field">
+					</div>
+
+					<div class="input-wrapper">
+						<label for="service" class="input-label">Service*</label>
+		  
+						<select id="service" name="service" required>
+							<option value="">Select a Trip</option>
+							<option value="Service 1">Dharmshala Trip</option>
+							<option value="Service 2">Palampur Trip</option>
+							<option value="Service 3">Baijnath Trip</option>
+						</select>
+					  </div>
+		
+					<button type="submit" class="btn btn-secondary">Get Expert's Call</button>
+		
+				  </form>
+		
+				</div>
+			  </section>
+		
+
+        
+        </div>
+        <div class="form-group">
+            <label for="service">Service:</label>
+            <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="Service 1">Service 1</option>
+                <option value="Service 2">Service 2</option>
+                <option value="Service 3">Service 3</option>
+            </select>
+        </div>
+    </section>
+
+</main> 
+	
 
 <script src="booking_form.js"></script>
 
