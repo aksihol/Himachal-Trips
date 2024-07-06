@@ -1,0 +1,25 @@
+{
+    "gallery": [
+      {
+        "url": "./g",
+        "description": "Beautiful view of the Himalayas."
+      },
+      {
+        "url": "assets/images/image2.jpg",
+        "description": "Scenic landscape with a river."
+      },
+      {
+        "url": "assets/images/image3.jpg",
+        "description": "Snow-covered mountains in Himachal Pradesh."
+      },
+      {
+        "url": "assets/images/image4.jpg",
+        "description": "Sunset view from a hilltop."
+      },
+      {
+        "url": "assets/images/image5.jpg",
+        "description": "A serene lake surrounded by mountains."
+      }
+    ]
+  }
+  
