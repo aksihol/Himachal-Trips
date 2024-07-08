@@ -25,13 +25,13 @@ document.addEventListener('DOMContentLoaded', function () {
 function bookNow(destination) {
   alert('Booking for ' + destination);
   // Redirect to booking page or handle booking functionality
-  window.location.href = 'booking.html?destination=' + encodeURIComponent(destination);
+  window.location.href = '../booking page/booking.html?destination=' + encodeURIComponent(destination);
 }
 
 
 function bookNow(destination) {
   alert('Booking for ' + destination);
-  window.location.href = 'booking.html?destination=' + encodeURIComponent(destination);
+  window.location.href = '../booking page/booking.html?destination=' + encodeURIComponent(destination);
 }
 
 function viewMore(page) {
